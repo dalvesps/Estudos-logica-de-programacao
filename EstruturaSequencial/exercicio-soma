@@ -1,0 +1,20 @@
+Algoritmo "Soma"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Nélio Alves
+// Descrição   : Ler dois valores inteiros de X e Y e mosta a soma
+// Autor(a)    : David Alves
+// Data atual  : 20/11/2025
+Var
+// Seção de Declarações das variáveis 
+       x,y,soma :inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+    escreva ("Digite o valor de X: ")
+    leia (x)
+    escreva ("Digite o valor de Y: ")
+    leia (y)
+                    soma<-x+y
+    escreva("SOMA = ",soma)
+    
+Fimalgoritmo
