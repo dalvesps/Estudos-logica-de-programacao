@@ -1,0 +1,32 @@
+Algoritmo "pagamento"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Nélio Alves
+// Descrição   : Fazer um progrramma que le nome,
+// valor recebido por hora e quantidade de horas.
+// Mostra mensagem com nome e valor do pagaento
+
+// Autor(a)    : David Alves
+// Data atual  : 27/11/2025
+Var
+// Seção de Declarações das variáveis 
+
+nome : caractere
+vlhora : real
+hora : inteiro
+pagamento : real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+escreva("Nome: ")
+leia (nome)
+escreva ("Valor por hora: ")
+leia(vlhora)
+escreva("Horas trabalhadas: ")
+leia(hora)
+
+pagamento <- vlhora * hora
+
+escreva("O pagamento para ",nome," deve ser ",pagamento:8:2)
+
+
+Fimalgoritmo
