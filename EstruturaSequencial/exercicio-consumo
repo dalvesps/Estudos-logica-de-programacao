@@ -1,0 +1,22 @@
+Algoritmo "consumo"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Nélio Alves
+// Descrição   : Le distânncia percorrida, total de cobustível gasto e mostra consumo medio
+// Autor(a)    : David Alves
+// Data atual  : 08/12/2025
+Var
+// Seção de Declarações das variáveis
+distancia, combustivel, consumo_medio : real
+
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+         escreva("Distancia percorrida: ")
+          leia(distancia)
+          escreva("Combustivel gasto: ")
+          leia (combustivel)
+          
+            consumo_medio <- distancia/combustivel
+          
+          escreva("Consumo medio",consumo_medio:8:3)
+Fimalgoritmo
