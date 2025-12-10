@@ -1,0 +1,25 @@
+Algoritmo "medidas"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Nélio Alves
+// Descrição   : medidas area A, B e C.
+// Autor(a)    : David Alves
+// Data atual  : 09/12/2025
+Var
+// Seção de Declarações das variáveis 
+     A,B,C, areaQuadrado, areaTrianulo, areaTrapezio : real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+   escreva("Digite a medida A: ")
+   leia(A)
+   escreva("Digite a medida B: ")
+   leia(B)
+   escreva("Digite a medida C: ")
+   leia(C)
+       areaQuadrado <-A*A
+       areaTrianulo <-A*B/2
+       areaTrapezio <-(A+B)*C/2
+       escrevaL("AREA DO QUADRADO = ",areaQuadrado:6:4)
+       escrevaL("AREA DO TRIANGULO = ",areaTrianulo:6:4)
+       escrevaL("AREA DO TRAPEZIO = ",areaTrapezio:6:4)
+Fimalgoritmo
