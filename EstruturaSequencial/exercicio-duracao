@@ -1,0 +1,23 @@
+Algoritmo "duracao"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Nélio Alves
+// Descrição   : recebe os numeros em segundos e transcreve
+// em formado de horas sendo hora:minutos:segundos
+// Autor(a)    : David Alves
+// Data atual  : 11/12/2025
+Var
+// Seção de Declarações das variáveis 
+  duracao, horas, resto, minutos, segundos : inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+     escreva("Digite a duracao em segundos: ")
+     leia(duracao)
+     horas <-duracao \ 3600
+     resto <-duracao % 3600
+     
+     minutos <- resto \ 60
+     segundos <- resto % 60
+     escreval (horas,":",minutos,":",segundos)
+
+Fimalgoritmo
